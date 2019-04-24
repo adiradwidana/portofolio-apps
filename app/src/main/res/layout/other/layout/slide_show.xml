@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.base.app.domain.ui.slideshow.LoopViewPager
+        android:id="@+id/slide_show_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:overScrollMode="never" />
+
+    <com.base.app.domain.ui.slideshow.CircleIndicator
+        android:id="@+id/slide_show_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        app:ci_gravity="center"
+        app:ci_margin="3dp"
+        app:ci_drawable="@drawable/bg_indicator_white"
+        app:ci_drawable_unselected="@drawable/bg_indicator_white_border"
+        app:ci_height="12dp"
+        app:ci_width="12dp" />
+
+</RelativeLayout>

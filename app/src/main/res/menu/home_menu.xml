@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_about"
+        android:title="About"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tab_privacy_policy"
+        android:title="Privacy Policy"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tab_faq"
+        android:title="F.A.Q"
+        app:showAsAction="never"/>
+
+</menu>

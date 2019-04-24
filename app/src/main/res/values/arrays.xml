@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="page_titles_of_goods_and_services">
+        <item>Barang</item>
+        <item>Jasa</item>
+        <item>Paket</item>
+    </array>
+
+    <string-array name="list_religions">
+        <item>KRISTEN</item>
+        <item>KHATOLIK</item>
+        <item>HINDU</item>
+        <item>BUDHA</item>
+        <item>KONGHUCU</item>
+    </string-array>
+
+    <string-array name="list_gender">
+        <item>Laki - laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+</resources>

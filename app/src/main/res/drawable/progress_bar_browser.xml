@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/my_progress_background">
+        <shape>
+            <solid
+                android:color="@color/mdtp_white" />
+        </shape>
+    </item>
+
+    <!--gk kepake kyknya-->
+  <!--  <item android:id="@+id/my_secondaryProgress">
+        <clip>
+            <shape>
+                <solid
+                    android:color="@color/orange" />
+            </shape>
+        </clip>
+    </item>-->
+
+    <item android:id="@+id/my_progress">
+        <clip>
+            <shape>
+                <solid
+                    android:color="@color/red_A700" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/state_layout_img_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_above="@+id/state_layout_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/state_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/state_layout_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/server_maintenance"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/state_layout_txt_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/server_maintenance_message"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/state_layout_btn_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:textColor="@color/white"
+        android:text="@string/ulangi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:paddingRight="16dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/state_layout_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

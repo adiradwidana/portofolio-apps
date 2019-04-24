@@ -1,0 +1,103 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'com.google.gms:google-services:4.2.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "http://dl.bintray.com/afin/maven" }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.google.com/' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // SDK
+    minSdkVersion = 17
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.3'
+
+    /**     [!!] IMPORTANT NOTES [!!]
+     *
+     *      <versionCode> is incremental, not bound to versionName
+     *
+     *      <versionName> must be written as the following structure:
+     *      - no prefix allowed
+     *      - start with first digit, separated by periods (.)
+     *      - first & second digit IS REQUIRED, other digits are optional
+     *
+     *      e.g:
+     *      - 1.0
+     *      - 1.0.0
+     *      - 1.0.1.0
+     *      - 1.15.70
+     *
+     *      not allowed:
+     *      1-0-0
+     *      v1.0.0
+     *      ver1.0.0
+     *      ver 1-0
+     *
+     * **/
+    versionCode = 1
+    versionName = '1.0.0'
+
+    // Dependencies
+    supportVersion = '28.0.0'
+    googleVersion = '16.1.0'
+    supportTestVersion = '1.0.2'
+    calligraphyVersion = "2.3.0"
+    multidexVersion = '1.0.3'
+    espressoVersion = '3.0.2'
+    constraintLayoutVersion = '1.1.3'
+    archLifecycleVersion = '1.1.0'
+    retrofitVersion = '2.4.0'
+    okhttpVersion = '3.10.0'
+    glideVersion = '4.7.1'
+    storeVersion = '3.0.1'
+    daggerVersion = '2.15'
+    timberVersion = '4.7.1'
+    gsonVersion = '2.8.2'
+    butterKnifeVersion = '8.8.1'
+    circleIndicatorVersion = '1.2.2@aar'
+    lottieVersion = '2.5.1'
+    croperinoVersion = '1.1.7'
+    loadingButtonVersion = '1.12.1'
+    pinEntryVersion = '1.3.3'
+    junitVersion = '4.12'
+    mockitoVersion = '2.17.0'
+    hamcrestVersion = '1.3'
+    rxJava2Version = '2.1.12'
+    rxAndroidVersion = '2.0.2'
+    stethoVersion = '1.5.0'
+    leakcanaryVersion = '1.5.4'
+    appSeeVersion = '2.4.1'
+    playServicesVersion = '16.0.1'
+    firebaseCoreVersion = '16.0.4'
+    firebaseMessagingVersion = '17.3.3'
+    facebookVersion = '4.31.0'
+    algoliaVersion = '3.14.1'
+    crashlyticsVersion = '2.9.1@aar'
+//    appsFlyerVersion = '4.8.9@aar'
+//    installReferrerVersion = '1.0'
+    javaxAnnotationVersion = '10.0-b28'
+}

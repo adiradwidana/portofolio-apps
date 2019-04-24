@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.base.app.domain.ui.imageview.RatioImageView
+        android:id="@+id/slide_show_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        app:widthRatio="3"
+        app:heightRatio="2"
+        android:foreground="?android:attr/selectableItemBackground"/>
+</FrameLayout>

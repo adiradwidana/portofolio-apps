@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">base-app</string>
+    <string name="label_buat_akun">Buat Akun</string>
+    <string name="label_lupa_password">Lupa Password?</string>
+    <!-- Toast -->
+    <string name="message_back_pressed">Click once more to exit</string>
+    <string name="login_success">Login Berhasil</string>
+    <string name="retry">Retry</string>
+    <string name="uh_oh">Uh-Oh!</string>
+    <string name="slow_or_no_internet_connection_nplease_check_your_internet_settings">Slow or no internet connection. \nPlease check your internet settings.</string>
+    <string name="dummy_long_text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged.
+    </string>
+    <!-- State View -->
+    <string name="ulangi">Coba Lagi</string>
+    <string name="error_no_connection_title">Uh-Oh!</string>
+    <string name="error_under_constraction_title">Mohon maaf</string>
+    <string name="error_under_constraction_message">Halaman ini dalam tahap pengembangan, kami akan update secepatnya..</string>
+    <string name="error_no_connection_message">Slow or no internet connection. \nPlease check your internet settings.</string>
+    <string name="error_no_data">Oops…</string>
+    <string name="error_no_data_message">Tidak ada data. \nInput data terlebih dahulu.</string>
+    <string name="error_no_notification">Belum ada Notifikasi.</string>
+    <string name="error_timeout">Oh Noo…</string>
+    <string name="error_timeout_message">Something wrong with the server. \nPlease come back again later.</string>
+    <string name="server_maintenance">Noo…</string>
+    <string name="server_maintenance_message">The server is under maintenance. \nPlease come back again later.</string>
+    <string name="error_not_found_title">Not Found</string>
+    <string name="error_not_found_message">We could not find the page you were looking for.</string>
+    <string name="perbaharui">Update</string>
+    <string name="error_need_update_title">Update Available</string>
+    <string name="error_need_update_message">The latest version is available. Download Via Play Store.</string>
+    <string name="error_unknown_title">There was a Problem</string>
+    <string name="error_unknown_message">There is an error. Please try again later.</string>
+    <string name="amount_not_valid">Payment can not be less.</string>
+    <string name="reload">Reload</string>
+    <string name="title_activity_main_tab">MainTab</string>
+    <string name="gagal_memuat_data">Failed To Load data</string>
+    <string name="no_data_for_category">There is no data for this category.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="loading_data">Loading data…</string>
+    <string name="nomor_polisi">Nomor Polisi</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_our_otlet">Location</string>
+    <string name="label_my_gps">Tracking</string>
+    <string name="tab_notification">Notification</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_splash">Splash Example</string>
+    <string name="this_feature_is_under_construction">This feature is under construction</string>
+    <string name="activity_title_home">Home</string>
+    <string name="tab_webview">Webview</string>
+    <string name="url">http://www.google.co.id</string>
+    <string name="default_notification_channel_id" translatable="false">mrmontir_fcm_default</string>
+    <string name="try_again">Try again</string>
+    <string name="expired_session">Session is expired, Please login again</string>
+    <string name="login_again">Login</string>
+    <string name="prompt_exit">Are you sure want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no_text">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="content_progress">Loading...</string>
+
+
+</resources>

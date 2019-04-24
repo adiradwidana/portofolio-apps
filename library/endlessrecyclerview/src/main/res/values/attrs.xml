@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EndlessRecyclerView">
+        <attr name="errorLayout" format="reference"/>
+        <attr name="errorTextViewId" format="integer"/>
+        <attr name="errorActionViewId" format="integer"/>
+        <attr name="loadingLayout" format="reference"/>
+        <attr name="waitingToLoadLayout" format="reference"/>
+        <attr name="waitingToLoadActionViewId" format="integer"/>
+        <attr name="loadMoreEnabled" format="boolean"/>
+        <attr name="autoLoad" format="boolean"/>
+        <attr name="visibleThreshold" format="integer"/>
+    </declare-styleable>
+</resources>

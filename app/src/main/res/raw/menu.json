@@ -1,0 +1,32 @@
+{
+  "menu": [
+    {
+      "id": 0,
+      "title": "Member",
+      "lottie_asset": "location.json",
+      "active_animation_start_index": 1,
+      "inactive_still_index": 0
+    },
+    {
+      "id": 1,
+      "title": "Location",
+      "lottie_asset": "ic_location.json",
+      "active_animation_start_index": 1,
+      "inactive_still_index": 0
+    },
+    {
+      "id": 2,
+      "title": "Tracker",
+      "lottie_asset": "location.json",
+      "active_animation_start_index": 1,
+      "inactive_still_index": 0
+    },
+    {
+      "id": 3,
+      "title": "Shopping",
+      "lottie_asset": "location.json",
+      "active_animation_start_index": 1,
+      "inactive_still_index": 0
+    }
+  ]
+}
